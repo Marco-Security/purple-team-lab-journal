@@ -148,6 +148,3 @@ Cada día cubre 4 secciones:
 - **Target:** Ubuntu con DVWA + OWASP Juice Shop
 - **SIEM:** Wazuh 4.14.3 — Agent: Windows-Marco
 - **App MS:** Flask + React — [repo](https://github.com/Marco-Security/ms-security-app)
-
-## Autor
-Marco Eros | Puebla, México | SOC Analyst in training
