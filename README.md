@@ -31,7 +31,7 @@ Cada día cubre 4 secciones:
 | 07 | SQL Injection Blind | T1190 | SQLi Blind | [→](dias/dia-07-dvwa-sqli-blind.md) |
 | 08 | SNMP & DNS Enumeration | T1046 | File Inclusion | [→](dias/dia-08-snmp-dns-enumeration.md) |
 | 09 | File Inclusion — LFI & RFI | T1190 | File Inclusion | [→](dias/dia-09-file-inclusion.md) |
-| 10 | WAF Detection & Evasion | T1190 | CSRF | [→](dia-10-waf-detection-evasion.md) |
+| 10 | WAF Detection & Evasion | T1190 | CSRF | [→](dias/dia-10-waf-detection-evasion.md) |
 | 11 | Vulnerability Scanning — Nikto & OpenVAS | T1595 | File Upload | — |
 | 12 | Metasploit — Introducción | T1203 | Insecure CAPTCHA | — |
 | 13 | Metasploit — Exploitation | T1203 | SQL Injection (Medium) | — |
