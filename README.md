@@ -29,7 +29,7 @@ Cada día cubre 4 secciones:
 | 05 | SMB Enumeration | T1021.002 | XSS Stored | [→](dias/dia-05-smb-enumeration.md) |
 | 06 | FTP & Database Enumeration | T1210 | — | [→](dias/dia-06-ftp-database.md) |
 | 07 | SQL Injection Blind | T1190 | SQLi Blind | [→](dias/dia-07-dvwa-sqli-blind.md) |
-| 08 | SNMP & DNS Enumeration | T1046 | File Inclusion | [→](dias/dia-08-dvwa-sqli-blind.md) |
+| 08 | SNMP & DNS Enumeration | T1046 | File Inclusion | [→](dia-08-snmp-dns-enumeration.md) |
 | 09 | WAF Detection & Evasion | T1190 | CSRF | — |
 | 10 | Vulnerability Scanning — Nikto & OpenVAS | T1595 | File Upload | — |
 | 11 | Metasploit — Introducción | T1203 | Insecure CAPTCHA | — |
