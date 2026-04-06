@@ -35,7 +35,7 @@ Cada día cubre 4 secciones:
 | 11 | Vulnerability Scanning — Nikto & OpenVAS | T1595 | File Upload | [→](dias/dia-11-vulnerability-scanning.md) |
 | 12 | Metasploit — Introducción | T1203 | Insecure CAPTCHA | [→](dias/dia-12-metasploit-intro.md) |
 | 13 | Metasploit — Exploitation | T1203 | SQL Injection (Medium) | [→](dias/dia-13-metasploit-exploitation.md) |
-| 14 | Reverse Shells | T1059 | XSS (Medium) | — |
+| 14 | Reverse Shells | T1059 | XSS (Medium) | [→](dias/dia-14-reverse-shells.md) |
 | 15 | Semana 1-2 Review | — | — | — |
 
 #### Semana 3 — Vulnerability Assessment
