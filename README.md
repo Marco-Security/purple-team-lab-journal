@@ -36,7 +36,7 @@ Cada día cubre 4 secciones:
 | 12 | Metasploit — Introducción | T1203 | Insecure CAPTCHA | [→](dias/dia-12-metasploit-intro.md) |
 | 13 | Metasploit — Exploitation | T1203 | SQL Injection (Medium) | [→](dias/dia-13-metasploit-exploitation.md) |
 | 14 | Reverse Shells | T1059 | XSS (Medium) | [→](dias/dia-14-reverse-shells.md) |
-| 15 | Semana 1-2 Review | — | — | — |
+| 15 | Semana 1-2 Review | — | — | [→](dias/dia-15-semana-review.md) |
 
 #### Semana 3 — Vulnerability Assessment
 | Día | Tema | MITRE | DVWA | Link |
