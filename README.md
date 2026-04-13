@@ -41,7 +41,7 @@ Cada día cubre 4 secciones:
 #### Semana 3 — Vulnerability Assessment
 | Día | Tema | MITRE | DVWA | Link |
 |-----|------|-------|------|------|
-| 16 | Privilege Escalation Linux — SUID | T1548.001 | SQLi (High) | — |
+| 16 | Privilege Escalation Linux — SUID | T1548.001 | SQLi (High) | [→](dias/dia-16-privesc-suid.md) |
 | 17 | Privilege Escalation Linux — Sudo | T1548.003 | XSS (High) | — |
 | 18 | Privilege Escalation Linux — Cron | T1053.003 | Brute Force (Medium) | — |
 | 19 | Password Cracking — Hashcat | T1110.002 | Command Injection (Medium) | — |
