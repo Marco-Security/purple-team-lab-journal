@@ -1,6 +1,6 @@
-# 🟣 Purple Team Lab Journal — 120 días
+# 🟣 Purple Team Lab Journal — 71 días
 
-Documentación de mi journey de 120 días hacia un rol de SOC Analyst / Security Analyst.
+Documentación de mi journey de 71 días hacia un rol de SOC Analyst / Security Analyst.
 
 ## Objetivo
 Convertirme en SOC Analyst.
@@ -59,7 +59,7 @@ Cada día cubre 4 secciones:
 | 27 | XXE — XML External Entity | T1190 | — | — |
 | 28 | IDOR — Insecure Direct Object Reference | T1078 | — | — |
 | 29 | Broken Authentication | T1078.001 | Brute Force (High) | — |
-| 20 | Directory Traversal | T1083 | File Inclusion (High) | — |
+| 30 | Directory Traversal | T1083 | File Inclusion (High) | — |
 | 31 | Mes 1 Review | — | — | — |
 
 ### MES 2 — Advanced Offensive & Detection
@@ -108,30 +108,30 @@ Cada día cubre 4 secciones:
 #### Semana 11 — Microsoft Sentinel & KQL
 | Día | Tema | MITRE | Link |
 |-----|------|-------|------|
-| 61 | Sentinel — Introducción & Setup | — | — |
-| 62 | KQL — Fundamentos | — | — |
-| 63 | KQL — Hunting Queries | — | — |
-| 64 | Sentinel — Custom Analytics Rules | — | — |
-| 65 | Sentinel — Incident Management | — | — |
+| 57 | Sentinel — Introducción & Setup | — | — |
+| 58 | KQL — Fundamentos | — | — |
+| 59 | KQL — Hunting Queries | — | — |
+| 60 | Sentinel — Custom Analytics Rules | — | — |
+| 61 | Sentinel — Incident Management | — | — |
 
 #### Semana 12 — Active Directory
 | Día | Tema | MITRE | Link |
 |-----|------|-------|------|
-| 71 | Active Directory — Fundamentos | T1018 | — |
-| 72 | AD Enumeration — BloodHound | T1087.002 | — |
-| 73 | Kerberoasting | T1558.003 | — |
-| 74 | Pass the Ticket | T1550.003 | — |
-| 75 | AD Defense — Hardening | — | — |
+| 62 | Active Directory — Fundamentos | T1018 | — |
+| 63 | AD Enumeration — BloodHound | T1087.002 | — |
+| 64 | Kerberoasting | T1558.003 | — |
+| 65 | Pass the Ticket | T1550.003 | — |
+| 66 | AD Defense — Hardening | — | — |
 
 ### MES 4 — Automation & Certification
 #### Semana 13-14 — Purple Team Platform
 | Día | Tema | Link |
 |-----|------|------|
-| 91 | App MS — Azure Sentinel Integration | — |
-| 92 | App MS — Defender API | — |
-| 93 | App MS — Graph API | — |
-| 94 | Wazuh — Thermodynamic Dashboard | — |
-| 95 | Purple Team Platform — Final | — |
+| 67 | App MS — Azure Sentinel Integration | — |
+| 68 | App MS — Defender API | — |
+| 69 | App MS — Graph API | — |
+| 70 | Wazuh — Thermodynamic Dashboard | — |
+| 71 | Purple Team Platform — Final | — |
 
 ## Entorno técnico
 - **Atacante:** Kali Linux
