@@ -42,7 +42,7 @@ Cada día cubre 4 secciones:
 | Día | Tema | MITRE | DVWA | Link |
 |-----|------|-------|------|------|
 | 16 | Privilege Escalation Linux — SUID | T1548.001 | SQLi (High) | [→](dias/dia-16-privesc-suid.md) |
-| 17 | Privilege Escalation Linux — Sudo | T1548.003 | XSS (High) | — |
+| 17 | Privilege Escalation Linux — Sudo | T1548.003 | XSS (High) | [→](dias/dia-17-privesc-sudo.md) |
 | 18 | Privilege Escalation Linux — Cron | T1053.003 | Brute Force (Medium) | — |
 | 19 | Password Cracking — Hashcat | T1110.002 | Command Injection (Medium) | — |
 | 20 | Network Sniffing — Wireshark | T1040 | File Inclusion (Medium) | — |
