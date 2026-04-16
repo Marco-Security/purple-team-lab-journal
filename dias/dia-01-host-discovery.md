@@ -3,7 +3,7 @@
 **MITRE ATT&CK:** T1018 — Remote System Discovery  
 **Táctica:** Discovery (TA0007)
 
-## 🔴 Red Team
+## Red Team
 
 ### Comandos ejecutados
 | Comando | Output |
@@ -18,7 +18,7 @@
 - MAC prefix `08:00:27` identifica VirtualBox como vendor
 - Network sweep `/24` completado en ~1 segundo — 256 ARP requests automatizados
 
-## 🔵 Blue Team
+## Blue Team
 
 ### Detección
 | Comando | Qué detectó |
@@ -31,11 +31,11 @@
 - ARP flood de `.0` a `.255` completado en ~1 segundo — imposible para un humano
 - Detección 100% manual — sin alertas automáticas
 
-## 🟣 Purple Team Analysis
+## Purple Team Analysis
 
 **Effectiveness Score: 50/100**
 
-| 🔴 Red Team | 🔵 Blue Team |
+| Red Team | Blue Team |
 |---|---|
 | ICMP ping identificó host activo | tcpdump capturó ICMP requests |
 | ARP sweep mapeó toda la subred | ARP flood visible — patrón de automatización claro |
@@ -50,7 +50,7 @@
 ### Lección
 El ataque más básico — ping sweep — ya expone la diferencia entre visibilidad manual y detección automatizada. Un SOC real necesita SIEM + IDS, no solo tcpdump.
 
-## 🔓 DVWA — Brute Force (Low)
+## DVWA — Brute Force (Low)
 
 ### Hallazgos
 - Formulario de login sin rate limiting, sin lockout, sin CAPTCHA
