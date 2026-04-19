@@ -3,7 +3,7 @@
 **MITRE ATT&CK:** T1190 — Exploit Public-Facing Application  
 **Táctica:** Initial Access (TA0001)
 
-## 🔴 Red Team
+## Red Team
 
 ### Comandos ejecutados
 | Comando | Output |
@@ -23,7 +23,7 @@
 - Cookie `security=low` visible en headers — expone configuración interna
 - Nikto completó scan de 11 vulnerabilidades en 60 segundos
 
-## 🔵 Blue Team
+## Blue Team
 
 ### Detección
 | Comando | Qué detectó |
@@ -37,11 +37,11 @@
 - Gobuster genera patrón diferente — paths distintos, misma extensión
 - Un IDS con firma de Nikto detectaría esto instantáneamente
 
-## 🟣 Purple Team Analysis
+## Purple Team Analysis
 
 **Effectiveness Score: 65/100**
 
-| 🔴 Red Team | 🔵 Blue Team |
+| Red Team | Blue Team |
 |---|---|
 | Nikto encontró 11 vulnerabilidades en 60 segundos | Patrón Nikto claramente visible en tcpdump |
 | Gobuster descubrió php.ini y /config/ | GET requests masivos identificables por velocidad |
@@ -57,7 +57,7 @@
 ### Lección
 Nikto y Gobuster son herramientas ruidosas — sus patrones son muy reconocibles. Un atacante real usaría herramientas más lentas y silenciosas. La velocidad de estas herramientas es su mayor debilidad desde el punto de vista del Blue Team.
 
-## 🔓 DVWA — XSS Reflected (Low)
+## DVWA — XSS Reflected (Low)
 
 ### Explotación
 | Payload | Output |
@@ -73,12 +73,12 @@ Nikto y Gobuster son herramientas ruidosas — sus patrones son muy reconocibles
 - Flag HttpOnly en cookies
 - CVSS: 6.1 Medium
 
-## 🔵 App MS Security
+## App MS Security
 - Endpoint `/alerts` con 5 alertas mock — HTTP 200 funcionando
 - React scaffold con Vite inicializado — app corriendo en localhost:5173
 - CORS habilitado con flask-cors
 
-## 🟡 Wazuh
+## Wazuh
 - Rule 19011: AutoAdminLogon — ya mitigado Día 3
 - **Mitigación aplicada:** queue_size aumentado de 5000 a 16000
 - Agente Wazuh reiniciado con nueva configuración
