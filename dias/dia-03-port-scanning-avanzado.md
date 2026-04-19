@@ -3,7 +3,7 @@
 **MITRE ATT&CK:** T1046 — Network Service Discovery  
 **Táctica:** Discovery (TA0007)
 
-## 🔴 Red Team
+## Red Team
 
 ### Comandos ejecutados
 | Comando | Output |
@@ -27,7 +27,7 @@
 - NSE scripts envían payloads específicos por protocolo — DNS queries, SNMP requests, NTP, TFTP
 - `--min-rate 5000` redujo tiempo de scan de 35 minutos a 76 segundos
 
-## 🔵 Blue Team
+## Blue Team
 
 ### Detección
 | Comando | Qué detectó |
@@ -40,11 +40,11 @@
 - Todo el scan UDP completado en ~1 segundo — patrón de automatización claro
 - Un IDS con firmas de NSE detectaría esto instantáneamente
 
-## 🟣 Purple Team Analysis
+## Purple Team Analysis
 
 **Effectiveness Score: 60/100**
 
-| 🔴 Red Team | 🔵 Blue Team |
+| Red Team | Blue Team |
 |---|---|
 | NSE vuln encontró cookie sin httponly y directory listing | tcpdump capturó payloads UDP específicos |
 | Banner grabbing reveló versiones exactas | Patrón de múltiples protocolos en 1 segundo visible |
@@ -59,7 +59,7 @@
 ### Lección
 NSE scripts van más allá del port scanning — simulan comportamiento real de protocolos. La diferencia entre un scan básico y NSE es la diferencia entre llamar a una puerta y intentar abrir la cerradura.
 
-## 🔓 DVWA — SQL Injection (Low)
+## DVWA — SQL Injection (Low)
 
 ### Comandos de explotación
 | Input | Output |
@@ -82,7 +82,7 @@ NSE scripts van más allá del port scanning — simulan comportamiento real de 
 - Ocultar errores SQL — mensajes genéricos al usuario
 - Reemplazar MD5 por bcrypt con salt
 
-## 🟡 Wazuh
+## Wazuh
 - `sfc /scannow` ejecutado — sistema íntegro, sin archivos corruptos
 - **Mitigación aplicada:** AutoAdminLogon deshabilitado — `AutoAdminLogon: 0`
 - CIS Benchmark score <30% — pendiente corrección progresiva
