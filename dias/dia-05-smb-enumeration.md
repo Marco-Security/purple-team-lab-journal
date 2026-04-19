@@ -3,7 +3,7 @@
 **MITRE ATT&CK:** T1021.002 — Remote Services: SMB/Windows Admin Shares  
 **Táctica:** Lateral Movement (TA0008)
 
-## 🔴 Red Team
+## Red Team
 
 ### Comandos ejecutados
 | Comando | Output |
@@ -22,7 +22,7 @@
 - Política de contraseñas débil — mínimo 5 caracteres, sin complejidad, sin lockout
 - `netexec` reemplaza a `crackmapexec` — paquete obsoleto en Kali
 
-## 🔵 Blue Team
+## Blue Team
 
 ### Detección
 | Comando | Qué detectó |
@@ -36,11 +36,11 @@
 - Patrón de sesiones cortas con `Flags [F.]` — típico de enumeración automatizada
 - Sin alerta automática — detección 100% manual
 
-## 🟣 Purple Team Analysis
+## Purple Team Analysis
 
 **Effectiveness Score: 65/100**
 
-| 🔴 Red Team | 🔵 Blue Team |
+| Red Team | Blue Team |
 |---|---|
 | enum4linux extrajo usuario sin credenciales | Conexiones TCP al 445 visibles en tcpdump |
 | smbmap confirmó READ/WRITE anónimo | NetBIOS respondió con nombre del servidor |
@@ -56,7 +56,7 @@
 ### Lección
 SMB enumeration sin credenciales es posible por tres misconfigurations combinadas — guest access, NULL sessions y SMB signing deshabilitado. La firma SMB es especialmente crítica — sin ella un atacante puede interceptar y reutilizar credenciales NTLM.
 
-## 🔓 DVWA — XSS Stored (Low)
+## DVWA — XSS Stored (Low)
 
 ### Explotación
 | Payload | Output |
@@ -76,12 +76,12 @@ SMB enumeration sin credenciales es posible por tres misconfigurations combinada
 - Content Security Policy
 - CVSS: 8.4 High
 
-## 🔵 App MS Security
+## App MS Security
 - Alert Dashboard React conectado a Flask — 5 alertas con colores por severidad
 - `useEffect` + `fetch` consumiendo endpoint `/alerts`
 - Colores dinámicos: Critical=rojo, High=naranja, Medium=amarillo, Low=verde
 
-## 🟡 Wazuh
+## Wazuh
 - Rule 61110: Multiple System error events — ProtonVPN WireGuard + TPM 1040
 - TPM 1040 investigado — falso positivo AMD confirmado con `Get-Tpm`
 - **Mitigación aplicada:** SessionEnv deshabilitado — `StartType: Disabled`
