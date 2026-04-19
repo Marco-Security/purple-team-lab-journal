@@ -3,7 +3,7 @@
 **MITRE ATT&CK:** T1190 — Exploit Public-Facing Application  
 **Táctica:** Initial Access (TA0001)
 
-## 🔓 DVWA — SQL Injection Blind (Low)
+## DVWA — SQL Injection Blind (Low)
 
 ### ¿Qué es Blind SQLi?
 A diferencia del SQLi normal que devuelve datos directamente, Blind SQLi solo 
@@ -45,13 +45,13 @@ solo indica si la condición es correcta o no. Esto hace necesaria la automatiza
 - Ocultar mensajes de error — respuesta genérica al usuario
 - WAF para detectar patrones de inyección
 
-## 🔵 App MS Security
+## App MS Security
 - Filtros por severidad agregados al Alert Dashboard
 - Botones: All / Critical / High / Medium / Low
 - Filtrado dinámico con React state — `filter === "All" ? alerts : alerts.filter(...)`
 - Commit subido a GitHub: `Add severity filters to Alert Dashboard`
 
-## 🟡 Wazuh — CIS Benchmark Correcciones
+## Wazuh — CIS Benchmark Correcciones
 
 ### Alertas del día
 | Rule ID | Nivel | Descripción |
