@@ -3,7 +3,7 @@
 **MITRE ATT&CK:** T1190 — Exploit Public-Facing Application  
 **Táctica:** Initial Access (TA0001)
 
-## 🔴 Red Team
+## Red Team
 
 ### LFI — Local File Inclusion
 | URL | Output |
@@ -36,14 +36,14 @@
 - **RFI** — ejecuta código remoto en el servidor — control total si `allow_url_include=On`
 - RFI es considerablemente más peligroso — es ejecución remota de código, paso directo hacia reverse shell
 
-## 🔵 Blue Team
+## Blue Team
 
 ### Detección
 - Parámetro `page` con `../` en logs de Apache — path traversal detectable
 - Requests HTTP salientes desde el servidor hacia IPs externas — RFI detectable
 - `allow_url_include=On` es una misconfiguration que nunca debería estar activa en producción
 
-## 🟣 Purple Team Analysis
+## Purple Team Analysis
 
 **Effectiveness Score: 75/100**
 
@@ -60,5 +60,5 @@
 ### Lección
 LFI permite leer archivos sensibles del servidor — credenciales, configuraciones, usuarios. RFI va más lejos — si `allow_url_include` está habilitado, el servidor ejecuta código de una URL externa. En entornos reales esto es equivalente a darle al atacante un terminal en el servidor.
 
-## 🟡 Wazuh
+## Wazuh
 - Pendiente — análisis en próxima sesión
