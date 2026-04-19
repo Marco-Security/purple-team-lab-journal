@@ -3,7 +3,7 @@
 **MITRE ATT&CK:** T1210 — Exploitation of Remote Services  
 **Táctica:** Lateral Movement (TA0008)
 
-## 🔴 Red Team
+## Red Team
 
 ### Comandos ejecutados
 | Comando | Output |
@@ -23,7 +23,7 @@
 - 3 usuarios con passwords en texto plano extraídos: admin, marco, juan
 - FTP sin cifrado — credenciales viajan en texto plano por la red
 
-## 🔵 Blue Team
+## Blue Team
 
 ### Detección
 | Comando | Qué detectó |
@@ -37,11 +37,11 @@
 - Conexiones simultáneas a puerto 21 y 3306 identificadas
 - En un ataque MITM real, estas credenciales serían interceptadas automáticamente
 
-## 🟣 Purple Team Analysis
+## Purple Team Analysis
 
 **Effectiveness Score: 70/100**
 
-| 🔴 Red Team | 🔵 Blue Team |
+| Red Team | Blue Team |
 |---|---|
 | FTP anonymous login — acceso sin credenciales | Credenciales FTP capturadas en texto plano |
 | MySQL sin contraseña — DB completa expuesta | Conexiones a 21 y 3306 visibles en tcpdump |
@@ -57,11 +57,11 @@
 ### Lección
 FTP es un protocolo de los años 70 — sin cifrado por diseño. Todo lo que viaja por FTP es legible por cualquier persona en la misma red. En entornos reales FTP nunca debería usarse — SFTP (puerto 22) o FTPS son las alternativas seguras. MySQL expuesto sin contraseña es igualmente crítico — una DB accesible desde la red sin autenticación es compromiso total de datos.
 
-## 🔓 DVWA
+## DVWA
 - Pendiente — sesión enfocada en FTP y MySQL
 
-## 🔵 App MS Security
+## App MS Security
 - Pendiente — continuación Día 7
 
-## 🟡 Wazuh
+## Wazuh
 - Pendiente — análisis en próxima sesión
