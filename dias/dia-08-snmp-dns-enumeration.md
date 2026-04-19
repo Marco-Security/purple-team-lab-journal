@@ -3,7 +3,7 @@
 **MITRE ATT&CK:** T1046 — Network Service Discovery  
 **Táctica:** Discovery (TA0007)
 
-## 🔴 Red Team
+## Red Team
 
 ### SNMP Enumeration
 | Comando | Output |
@@ -32,7 +32,7 @@
 | db.empresa.local | 192.168.1.99 | Base de datos |
 | admin.empresa.local | 192.168.1.100 | Panel de administración |
 
-## 🔵 Blue Team
+## Blue Team
 
 ### Detección
 | Comando | Qué detectó |
@@ -45,11 +45,11 @@
 - `AXFR? empresa.local` literal en la captura — Zone Transfer sin cifrado
 - Ambos ataques completados en menos de 5 segundos
 
-## 🟣 Purple Team Analysis
+## Purple Team Analysis
 
 **Effectiveness Score: 75/100**
 
-| 🔴 Red Team | 🔵 Blue Team |
+| Red Team | Blue Team |
 |---|---|
 | SNMP expuso arquitectura completa de red | SNMP GetRequest visible en tcpdump |
 | Zone Transfer entregó mapa de infraestructura | `AXFR? empresa.local` visible en texto plano |
@@ -73,5 +73,5 @@
 ### Lección
 SNMP mal configurado es el equivalente a darle a un atacante el plano completo de la red — interfaces, IPs, subredes y dispositivos conectados sin necesidad de escanear nada. El Zone Transfer es igual de peligroso — en segundos expone toda la infraestructura interna de una organización. Ambos son protocolos diseñados para administración interna que nunca deberían ser accesibles desde redes no confiables.
 
-## 🟡 Wazuh
+## Wazuh
 - Pendiente — análisis en próxima sesión
