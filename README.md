@@ -46,7 +46,7 @@ Cada día cubre 4 secciones:
 | 18 | Privilege Escalation Linux — Cron | T1053.003 | Brute Force (Medium) | [→](dias/dia-18-privesc-cron.md) |
 | 19 | Password Cracking — Hashcat | T1110.002 | Command Injection (Medium) | [→](dias/dia-19-password-cracking.md) |
 | 20 | Network Sniffing — Wireshark | T1040 | File Inclusion (Medium) | [→](dias/dia-20-network-sniffing.md) |
-| 21 | ARP Spoofing & MITM | T1557.002 | CSRF (Medium) | — |
+| 21 | ARP Spoofing & MITM | T1557.002 | CSRF (Medium) | [→](dias/dia-21-arp-spoofing.md) |
 | 22 | Semana 3 Review | — | — | — |
 
 #### Semana 4 — Initial Access & Exploitation
