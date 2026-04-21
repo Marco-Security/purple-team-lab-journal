@@ -22,7 +22,7 @@ En nivel Low el servidor no verificaba el origen del request — cualquier pági
 
 **Entorno:**
 - Kali (atacante): `192.168.1.132` — MAC `08:00:27:58:97:4f`
-- Windows-Marco (víctima): `192.168.1.96`
+- Ubuntu (víctima): `192.168.1.96`
 - Gateway (router): `192.168.1.254`
 
 **Paso 1 — Habilitar IP forwarding:**
