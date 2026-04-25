@@ -55,7 +55,7 @@ Cada día cubre 4 secciones:
 | 23 | Web Shells | T1505.003 | File Upload (Medium) | [→](dias/dia-23-web-shells.md) |
 | 24 | SQL Injection — SQLmap avanzado | T1190 | SQLi Blind (Medium) | [→](dias/dia-24-sqlmap-avanzado.md) |
 | 25 | XSS avanzado — BeEF Framework | T1185 | XSS (High) | [→](dias/dia-25-beef-framework.md) |
-| 26 | SSRF — Server Side Request Forgery | T1190 | — | — |
+| 26 | SSRF — Server Side Request Forgery | T1190 | — | [→](dias/dia-26-ssrf.md) |
 | 27 | XXE — XML External Entity | T1190 | — | — |
 | 28 | IDOR — Insecure Direct Object Reference | T1078 | — | — |
 | 29 | Broken Authentication | T1078.001 | Brute Force (High) | — |
