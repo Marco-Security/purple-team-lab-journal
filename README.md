@@ -1,4 +1,7 @@
-# Purple Team Lab Journal — 71 días
+rd de seguridad en desarrollo
+- **Wazuh SIEM** — Hardening real de Windows
+
+## Índice de días# Purple Team Lab Journal — 71 días
 
 Documentación de mi journey de 71 días hacia un rol de SOC Analyst / Security Analyst.
 
@@ -13,10 +16,7 @@ Convertirme en SOC Analyst.
 Cada día cubre 4 secciones:
 - **Purple Team** — Red Team + Blue Team + Análisis
 - **DVWA** — Vulnerabilidades web prácticas
-- **App MS Security** — Dashboard de seguridad en desarrollo
-- **Wazuh SIEM** — Hardening real de Windows
-
-## Índice de días
+- **App MS Security** — Dashboa
 
 ### MES 1 — Red Team + Blue Team Basics
 #### Semana 1-2 — Reconnaissance & Scanning
