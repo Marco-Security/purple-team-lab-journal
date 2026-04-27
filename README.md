@@ -1,25 +1,32 @@
-rd de seguridad en desarrollo
-- **Wazuh SIEM** — Hardening real de Windows
-
-## Índice de días# Purple Team Lab Journal — 71 días
+# Purple Team Lab Journal — 71 días
 
 Documentación de mi journey de 71 días hacia un rol de SOC Analyst / Security Analyst.
 
 ## Objetivo
+
 Convertirme en SOC Analyst.
 
 ## Certificaciones en progreso
+
 - SC-900 — Microsoft Security Fundamentals
-- SC-200 — Microsoft Security Operations Analyst
+- SC-200 — Microsoft Security Operations Analyst (examen: 18 Junio 2026)
 
 ## Estructura del journal
-Cada día cubre 4 secciones:
+
+Cada día cubre 5 secciones:
+
 - **Purple Team** — Red Team + Blue Team + Análisis
-- **DVWA** — Vulnerabilidades web prácticas
-- **App MS Security** — Dashboa
+- **DVWA** — Vulnerabilidades web prácticas (Días 1–31)
+- **App MS Security** — Dashboard de seguridad en desarrollo
+- **Wazuh SIEM** — Hardening real de Windows
+- **SC-200** — Microsoft XDR & Sentinel: KQL, Defender, Sentinel (Días 27–71)
+
+## Índice de días
 
 ### MES 1 — Red Team + Blue Team Basics
+
 #### Semana 1-2 — Reconnaissance & Scanning
+
 | Día | Tema | MITRE | DVWA | Link |
 |-----|------|-------|------|------|
 | 01 | Host Discovery | T1018 | Brute Force | [→](dias/dia-01-host-discovery.md) |
@@ -39,6 +46,7 @@ Cada día cubre 4 secciones:
 | 15 | Semana 1-2 Review | — | — | [→](dias/dia-15-semana-review.md) |
 
 #### Semana 3 — Vulnerability Assessment
+
 | Día | Tema | MITRE | DVWA | Link |
 |-----|------|-------|------|------|
 | 16 | Privilege Escalation Linux — SUID | T1548.001 | SQLi (High) | [→](dias/dia-16-privesc-suid.md) |
@@ -50,81 +58,92 @@ Cada día cubre 4 secciones:
 | 22 | Semana 3 Review | — | — | [→](dias/dia-22-semana-review.md) |
 
 #### Semana 4 — Initial Access & Exploitation
-| Día | Tema | MITRE | DVWA | Link |
-|-----|------|-------|------|------|
-| 23 | Web Shells | T1505.003 | File Upload (Medium) | [→](dias/dia-23-web-shells.md) |
-| 24 | SQL Injection — SQLmap avanzado | T1190 | SQLi Blind (Medium) | [→](dias/dia-24-sqlmap-avanzado.md) |
-| 25 | XSS avanzado — BeEF Framework | T1185 | XSS (High) | [→](dias/dia-25-beef-framework.md) |
-| 26 | SSRF — Server Side Request Forgery | T1190 | — | [→](dias/dia-26-ssrf.md) |
-| 27 | XXE — XML External Entity | T1190 | — | [→](dias/dia-27-xxe.md) |
-| 28 | IDOR — Insecure Direct Object Reference | T1078 | — | — |
-| 29 | Broken Authentication | T1078.001 | Brute Force (High) | — |
-| 30 | Directory Traversal | T1083 | File Inclusion (High) | — |
-| 31 | Mes 1 Review | — | — | — |
+
+| Día | Tema | MITRE | DVWA | SC-200 | Link |
+|-----|------|-------|------|--------|------|
+| 23 | Web Shells | T1505.003 | File Upload (Medium) | — | [→](dias/dia-23-web-shells.md) |
+| 24 | SQL Injection — SQLmap avanzado | T1190 | SQLi Blind (Medium) | — | [→](dias/dia-24-sqlmap-avanzado.md) |
+| 25 | XSS avanzado — BeEF Framework | T1185 | XSS (High) | — | [→](dias/dia-25-beef-framework.md) |
+| 26 | SSRF — Server Side Request Forgery | T1190 | — | — | [→](dias/dia-26-ssrf.md) |
+| 27 | XXE — XML External Entity | T1190 | — | KQL Fundamentos | [→](dias/dia-27-xxe.md) |
+| 28 | IDOR — Insecure Direct Object Reference | T1078 | — | KQL — Tablas y operadores | — |
+| 29 | Broken Authentication | T1078.001 | Brute Force (High) | KQL — Filtering & Aggregation | — |
+| 30 | Directory Traversal | T1083 | File Inclusion (High) | KQL — Joins & Time | — |
+| 31 | Mes 1 Review | — | — | KQL — Hunting Queries | — |
 
 ### MES 2 — Advanced Offensive & Detection
+
 #### Semana 5-6 — Post Exploitation & Lateral Movement
-| Día | Tema | MITRE | Link |
-|-----|------|-------|------|
-| 32 | Post Exploitation — Meterpreter | T1059.002 | — |
-| 33 | Persistence — Cron & Startup | T1053 | — |
-| 34 | Credential Dumping | T1003 | — |
-| 35 | Pass the Hash | T1550.002 | — |
-| 36 | Lateral Movement — SSH | T1021.004 | — |
-| 37 | Lateral Movement — SMB | T1021.002 | — |
-| 38 | Pivoting | T1090 | — |
-| 39 | C2 — Command & Control básico | T1071 | — |
-| 40 | Data Exfiltration | T1041 | — |
-| 41 | Semana 5-6 Review | — | — |
+
+| Día | Tema | MITRE | SC-200 | Link |
+|-----|------|-------|--------|------|
+| 32 | Post Exploitation — Meterpreter | T1059.002 | Microsoft Defender XDR — Introducción | — |
+| 33 | Persistence — Cron & Startup | T1053 | Defender — Incidents & Alerts | — |
+| 34 | Credential Dumping | T1003 | Defender — Advanced Hunting | — |
+| 35 | Pass the Hash | T1550.002 | Defender — Endpoints | — |
+| 36 | Lateral Movement — SSH | T1021.004 | Defender — Identity | — |
+| 37 | Lateral Movement — SMB | T1021.002 | Defender — Cloud Apps | — |
+| 38 | Pivoting | T1090 | Sentinel — Introducción & Setup | — |
+| 39 | C2 — Command & Control básico | T1071 | Sentinel — Data Connectors | — |
+| 40 | Data Exfiltration | T1041 | Sentinel — Analytics Rules | — |
+| 41 | Semana 5-6 Review | — | Sentinel — Workbooks | — |
 
 #### Semana 7 — Mobile Pentesting
-| Día | Tema | MITRE | Link |
-|-----|------|-------|------|
-| 42 | Android Security — ADB | T1437 | — |
-| 43 | APK Analysis — jadx-gui | T1430 | — |
-| 44 | Insecure Data Storage | T1533 | — |
-| 45 | Mobile Traffic Interception | T1040 | — |
-| 46 | Mobile Authentication Bypass | T1078 | — |
+
+| Día | Tema | MITRE | SC-200 | Link |
+|-----|------|-------|--------|------|
+| 42 | Android Security — ADB | T1437 | Sentinel — Incidents | — |
+| 43 | APK Analysis — jadx-gui | T1430 | Sentinel — Playbooks (Logic Apps) | — |
+| 44 | Insecure Data Storage | T1533 | Sentinel — Watchlists | — |
+| 45 | Mobile Traffic Interception | T1040 | Threat Intelligence en Sentinel | — |
+| 46 | Mobile Authentication Bypass | T1078 | Sentinel — Threat Hunting | — |
 
 #### Semana 8 — Purple Team Integration
-| Día | Tema | MITRE | Link |
-|-----|------|-------|------|
-| 47 | Purple Team Exercise 1 | T1018-T1190 | — |
-| 48 | Purple Team Exercise 2 | T1021-T1059 | — |
-| 49 | Detection Engineering — Sigma Rules | — | — |
-| 50 | Incident Response — Playbooks | — | — |
-| 51 | Mes 2 Review | — | — |
+
+| Día | Tema | MITRE | SC-200 | Link |
+|-----|------|-------|--------|------|
+| 47 | Purple Team Exercise 1 | T1018-T1190 | KQL: mapear ataques del lab a queries | — |
+| 48 | Purple Team Exercise 2 | T1021-T1059 | Custom Analytics Rules desde lab | — |
+| 49 | Detection Engineering — Sigma Rules | — | Sigma → KQL conversion | — |
+| 50 | Incident Response — Playbooks | — | Playbook SC-200 completo | — |
+| 51 | Mes 2 Review | — | Simulacro SC-200 (Sección 1 y 2) | — |
 
 ### MES 3 — Microsoft Ecosystem
+
 #### Semana 9-10 — Azure AD & Entra ID
-| Día | Tema | MITRE | Link |
-|-----|------|-------|------|
-| 52 | Azure AD — Fundamentos | T1078.004 | — |
-| 53 | Azure AD — Enumeration | T1087.004 | — |
-| 54 | Entra ID — Conditional Access | — | — |
-| 55 | Microsoft Defender — Configuración | — | — |
-| 56 | Microsoft Defender — Alertas & Respuesta | — | — |
+
+| Día | Tema | MITRE | SC-200 | Link |
+|-----|------|-------|--------|------|
+| 52 | Azure AD — Fundamentos | T1078.004 | Entra ID — Conditional Access | — |
+| 53 | Azure AD — Enumeration | T1087.004 | Entra ID — Sign-in Logs | — |
+| 54 | Entra ID — Conditional Access | — | Microsoft Secure Score | — |
+| 55 | Microsoft Defender — Configuración | — | Defender Vulnerability Management | — |
+| 56 | Microsoft Defender — Alertas & Respuesta | — | Simulacro SC-200 (Sección 3) | — |
 
 #### Semana 11 — Microsoft Sentinel & KQL
-| Día | Tema | MITRE | Link |
-|-----|------|-------|------|
-| 57 | Sentinel — Introducción & Setup | — | — |
-| 58 | KQL — Fundamentos | — | — |
-| 59 | KQL — Hunting Queries | — | — |
-| 60 | Sentinel — Custom Analytics Rules | — | — |
-| 61 | Sentinel — Incident Management | — | — |
+
+| Día | Tema | MITRE | SC-200 | Link |
+|-----|------|-------|--------|------|
+| 57 | Sentinel — Introducción & Setup | — | Repaso completo Sentinel | — |
+| 58 | KQL — Fundamentos | — | TOP 30 KQL queries del examen | — |
+| 59 | KQL — Hunting Queries | — | Simulacro SC-200 (Sección 4) | — |
+| 60 | Sentinel — Custom Analytics Rules | — | Casos prácticos examen | — |
+| 61 | Sentinel — Incident Management | — | Simulacro final SC-200 | — |
 
 #### Semana 12 — Active Directory
-| Día | Tema | MITRE | Link |
-|-----|------|-------|------|
-| 62 | Active Directory — Fundamentos | T1018 | — |
-| 63 | AD Enumeration — BloodHound | T1087.002 | — |
-| 64 | Kerberoasting | T1558.003 | — |
-| 65 | Pass the Ticket | T1550.003 | — |
-| 66 | AD Defense — Hardening | — | — |
+
+| Día | Tema | MITRE | SC-200 | Link |
+|-----|------|-------|--------|------|
+| 62 | Active Directory — Fundamentos | T1018 | AD en Defender for Identity | — |
+| 63 | AD Enumeration — BloodHound | T1087.002 | Defender for Identity — Alertas | — |
+| 64 | Kerberoasting | T1558.003 | Hunting Kerberoasting con KQL | — |
+| 65 | Pass the Ticket | T1550.003 | Hunting PtT con KQL | — |
+| 66 | AD Defense — Hardening | — | Repaso final pre-examen | — |
 
 ### MES 4 — Automation & Certification
+
 #### Semana 13-14 — Purple Team Platform
+
 | Día | Tema | Link |
 |-----|------|------|
 | 67 | App MS — Azure Sentinel Integration | — |
@@ -134,7 +153,10 @@ Cada día cubre 4 secciones:
 | 71 | Purple Team Platform — Final | — |
 
 ## Entorno técnico
-- **Atacante:** Kali Linux
-- **Target:** Ubuntu con DVWA + OWASP Juice Shop
+
+- **Atacante:** Kali Linux (192.168.1.132)
+- **Target:** Ubuntu con DVWA + OWASP Juice Shop (192.168.1.96)
 - **SIEM:** Wazuh 4.14.3 — Agent: Windows-Marco
+- **Microsoft E5:** Cuenta compartida — Microsoft Defender XDR + Sentinel
+- **Azure:** Cuenta estudiante ($100 crédito) — VMs, Log Analytics, Sentinel
 - **App MS:** Flask + React — [repo](https://github.com/Marco-Security/ms-security-app)
