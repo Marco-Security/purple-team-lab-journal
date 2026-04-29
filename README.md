@@ -66,7 +66,7 @@ Cada día cubre 5 secciones:
 | 25 | XSS avanzado — BeEF Framework | T1185 | XSS (High) | — | [→](dias/dia-25-beef-framework.md) |
 | 26 | SSRF — Server Side Request Forgery | T1190 | — | — | [→](dias/dia-26-ssrf.md) |
 | 27 | XXE — XML External Entity | T1190 | — | KQL Fundamentos | [→](dias/dia-27-xxe.md) |
-| 28 | IDOR — Insecure Direct Object Reference | T1078 | — | KQL — Tablas y operadores | — |
+| 28 | IDOR — Insecure Direct Object Reference | T1078 | — | KQL — Tablas y operadores | [→](dias/dia-28-idor.md) |
 | 29 | Broken Authentication | T1078.001 | Brute Force (High) | KQL — Filtering & Aggregation | — |
 | 30 | Directory Traversal | T1083 | File Inclusion (High) | KQL — Joins & Time | — |
 | 31 | Mes 1 Review | — | — | KQL — Hunting Queries | — |
