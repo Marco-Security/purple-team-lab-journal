@@ -64,7 +64,7 @@ El ataque más básico — ping sweep — ya expone la diferencia entre visibili
 - CAPTCHA en formulario de login
 - MFA obligatorio
 
-## 🟡 Wazuh
+## Wazuh
 - Agent Windows-Marco activo y reportando
 - 112 alertas totales (3 Medium + 109 Low)
 - Wazuh no detectó el ICMP/ARP scan — agent monitorea eventos del OS, no tráfico LAN
