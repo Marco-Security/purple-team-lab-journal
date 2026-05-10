@@ -68,7 +68,7 @@ Cada día cubre 5 secciones:
 | 27 | XXE — XML External Entity | T1190 | — | KQL Fundamentos | [→](dias/dia-27-xxe.md) |
 | 28 | IDOR — Insecure Direct Object Reference | T1078 | — | KQL — Tablas y operadores | [→](dias/dia-28-idor.md) |
 | 29 | Broken Authentication | T1078.001 | Brute Force (High) | KQL — Filtering & Aggregation | [→](dias/dia-29-broken-auth.md) |
-| 30 | Directory Traversal | T1083 | File Inclusion (High) | KQL — Joins & Time | — |
+| 30 | Directory Traversal | T1083 | File Inclusion (High) | KQL — Joins & Time | [→](dias/dia-30-directory-traversal.md) |
 | 31 | Mes 1 Review | — | — | KQL — Hunting Queries | — |
 
 ### MES 2 — Advanced Offensive & Detection
