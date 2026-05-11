@@ -1,6 +1,6 @@
-# Purple Team Lab Journal — 71 días
+# Purple Team Lab Journal — 57 días
 
-Documentación de mi journey de 71 días hacia un rol de SOC Analyst / Security Analyst.
+Documentación de mi journey de 57 días hacia un rol de SOC Analyst / Security Analyst.
 
 ## Objetivo
 
@@ -19,7 +19,7 @@ Cada día cubre 5 secciones:
 - **DVWA** — Vulnerabilidades web prácticas (Días 1–31)
 - **App MS Security** — Dashboard de seguridad en desarrollo
 - **Wazuh SIEM** — Hardening real de Windows
-- **SC-200** — Microsoft XDR & Sentinel: KQL, Defender, Sentinel (Días 27–71)
+- **SC-200** — Microsoft XDR & Sentinel: KQL, Defender, Sentinel (Días 27–57)
 
 ## Índice de días
 
@@ -84,29 +84,19 @@ Cada día cubre 5 secciones:
 | 36 | Lateral Movement — SSH | T1021.004 | Defender — Identity | — |
 | 37 | Lateral Movement — SMB | T1021.002 | Defender — Cloud Apps | — |
 | 38 | Pivoting | T1090 | Sentinel — Introducción & Setup | — |
-| 39 | C2 — Command & Control básico | T1071 | Sentinel — Data Connectors | — |
-| 40 | Data Exfiltration | T1041 | Sentinel — Analytics Rules | — |
-| 41 | Semana 5-6 Review | — | Sentinel — Workbooks | — |
-
-#### Semana 7 — Mobile Pentesting
-
-| Día | Tema | MITRE | SC-200 | Link |
-|-----|------|-------|--------|------|
-| 42 | Android Security — ADB | T1437 | Sentinel — Incidents | — |
-| 43 | APK Analysis — jadx-gui | T1430 | Sentinel — Playbooks (Logic Apps) | — |
-| 44 | Insecure Data Storage | T1533 | Sentinel — Watchlists | — |
-| 45 | Mobile Traffic Interception | T1040 | Threat Intelligence en Sentinel | — |
-| 46 | Mobile Authentication Bypass | T1078 | Sentinel — Threat Hunting | — |
+| 39 | C2 — Command & Control básico | T1071 | Sentinel — Analytics Rules | — |
+| 40 | Data Exfiltration | T1041 | Sentinel — Incidents & Playbooks | — |
+| 41 | Semana 5-6 Review | — | Simulacro SC-200 (Sección 1) | — |
 
 #### Semana 8 — Purple Team Integration
 
 | Día | Tema | MITRE | SC-200 | Link |
 |-----|------|-------|--------|------|
-| 47 | Purple Team Exercise 1 | T1018-T1190 | KQL: mapear ataques del lab a queries | — |
-| 48 | Purple Team Exercise 2 | T1021-T1059 | Custom Analytics Rules desde lab | — |
-| 49 | Detection Engineering — Sigma Rules | — | Sigma → KQL conversion | — |
-| 50 | Incident Response — Playbooks | — | Playbook SC-200 completo | — |
-| 51 | Mes 2 Review | — | Simulacro SC-200 (Sección 1 y 2) | — |
+| 42 | Purple Team Exercise 1 | T1018-T1190 | KQL: mapear ataques del lab a queries | — |
+| 43 | Purple Team Exercise 2 | T1021-T1059 | Custom Analytics Rules desde lab | — |
+| 44 | Detection Engineering — Sigma Rules | — | Sigma → KQL conversion | — |
+| 45 | Incident Response — Playbooks | — | Playbook SC-200 completo | — |
+| 46 | Mes 2 Review | — | Simulacro SC-200 (Sección 2) | — |
 
 ### MES 3 — Microsoft Ecosystem
 
@@ -114,43 +104,36 @@ Cada día cubre 5 secciones:
 
 | Día | Tema | MITRE | SC-200 | Link |
 |-----|------|-------|--------|------|
-| 52 | Azure AD — Fundamentos | T1078.004 | Entra ID — Conditional Access | — |
-| 53 | Azure AD — Enumeration | T1087.004 | Entra ID — Sign-in Logs | — |
-| 54 | Entra ID — Conditional Access | — | Microsoft Secure Score | — |
-| 55 | Microsoft Defender — Configuración | — | Defender Vulnerability Management | — |
-| 56 | Microsoft Defender — Alertas & Respuesta | — | Simulacro SC-200 (Sección 3) | — |
-
-#### Semana 11 — Microsoft Sentinel & KQL
-
-| Día | Tema | MITRE | SC-200 | Link |
-|-----|------|-------|--------|------|
-| 57 | Sentinel — Introducción & Setup | — | Repaso completo Sentinel | — |
-| 58 | KQL — Fundamentos | — | TOP 30 KQL queries del examen | — |
-| 59 | KQL — Hunting Queries | — | Simulacro SC-200 (Sección 4) | — |
-| 60 | Sentinel — Custom Analytics Rules | — | Casos prácticos examen | — |
-| 61 | Sentinel — Incident Management | — | Simulacro final SC-200 | — |
+| 47 | Azure AD — Fundamentos | T1078.004 | Entra ID — Conditional Access | — |
+| 48 | Azure AD — Enumeration | T1087.004 | Entra ID — Sign-in Logs | — |
+| 49 | Entra ID — Conditional Access | — | Microsoft Secure Score | — |
+| 50 | Microsoft Defender — Configuración | — | Defender Vulnerability Management | — |
+| 51 | Microsoft Defender — Alertas & Respuesta | — | Simulacro SC-200 (Sección 3) | — |
 
 #### Semana 12 — Active Directory
 
 | Día | Tema | MITRE | SC-200 | Link |
 |-----|------|-------|--------|------|
-| 62 | Active Directory — Fundamentos | T1018 | AD en Defender for Identity | — |
-| 63 | AD Enumeration — BloodHound | T1087.002 | Defender for Identity — Alertas | — |
-| 64 | Kerberoasting | T1558.003 | Hunting Kerberoasting con KQL | — |
-| 65 | Pass the Ticket | T1550.003 | Hunting PtT con KQL | — |
-| 66 | AD Defense — Hardening | — | Repaso final pre-examen | — |
+| 52 | Active Directory — Fundamentos | T1018 | AD en Defender for Identity | — |
+| 53 | AD Enumeration — BloodHound | T1087.002 | Defender for Identity — Alertas | — |
+| 54 | Kerberoasting | T1558.003 | Hunting Kerberoasting con KQL | — |
+| 55 | Pass the Ticket | T1550.003 | Hunting PtT con KQL | — |
+| 56 | AD Defense — Hardening | — | Repaso final pre-examen | — |
 
-### MES 4 — Automation & Certification
+### FINAL — Full Chain Attack
 
-#### Semana 13-14 — Purple Team Platform
+| Día | Tema | MITRE | Link |
+|-----|------|-------|------|
+| 57 | Full Chain Attack — Compromiso completo de Ubuntu | T1018 → T1059 → T1548 → T1041 | — |
 
-| Día | Tema | Link |
-|-----|------|------|
-| 67 | App MS — Azure Sentinel Integration | — |
-| 68 | App MS — Defender API | — |
-| 69 | App MS — Graph API | — |
-| 70 | Wazuh — Thermodynamic Dashboard | — |
-| 71 | Purple Team Platform — Final | — |
+**Full Chain Attack** es un ejercicio integrador sin guía previa. Partiendo de cero — solo con la IP de la víctima — se ejecuta un ataque completo que encadena todas las fases aprendidas en el journal:
+
+```
+Reconnaissance → Scanning → Enumeration → Exploitation
+→ Privilege Escalation → Persistence → Data Exfiltration
+```
+
+El objetivo es comprometer completamente la máquina Ubuntu (192.168.1.96) documentando cada decisión táctica, los comandos ejecutados, las detecciones generadas en Defender y las queries KQL usadas para reconstruir el ataque desde el Blue Team.
 
 ## Entorno técnico
 
@@ -160,3 +143,4 @@ Cada día cubre 5 secciones:
 - **Microsoft E5:** Cuenta compartida — Microsoft Defender XDR + Sentinel
 - **Azure:** Cuenta estudiante ($100 crédito) — VMs, Log Analytics, Sentinel
 - **App MS:** Flask + React — [repo](https://github.com/Marco-Security/ms-security-app)
+- **Mobile Lab:** MobilePwn Lab — [repo](https://github.com/Marco-Security/mobilepwn-lab)
