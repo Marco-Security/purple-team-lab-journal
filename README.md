@@ -17,8 +17,8 @@ Cada día cubre 5 secciones:
 
 - **Purple Team** — Red Team + Blue Team + Análisis
 - **DVWA** — Vulnerabilidades web prácticas (Días 1–31)
-- **App MS Security** — Dashboard de seguridad en desarrollo
-- **Wazuh SIEM** — Hardening real de Windows
+- **App MS Security** — Dashboard de seguridad en desarrollo (Días 1-27)
+- **Wazuh SIEM** — Hardening real de Windows (Días 1–26)
 - **SC-200** — Microsoft XDR & Sentinel: KQL, Defender, Sentinel (Días 27–57)
 
 ## Índice de días
