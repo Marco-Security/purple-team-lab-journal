@@ -77,7 +77,7 @@ Cada día cubre 5 secciones:
 
 | Día | Tema | MITRE | SC-200 | Link |
 |-----|------|-------|--------|------|
-| 32 | Post Exploitation — Meterpreter | T1059.002 | Microsoft Defender XDR — Introducción | — |
+| 32 | Post Exploitation — Meterpreter | T1059.002 | Microsoft Defender XDR — Introducción | [→](dias/dia-32-meterpreter.md) |
 | 33 | Persistence — Cron & Startup | T1053 | Defender — Incidents & Alerts | — |
 | 34 | Credential Dumping | T1003 | Defender — Advanced Hunting | — |
 | 35 | Pass the Hash | T1550.002 | Defender — Endpoints | — |
