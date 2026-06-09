@@ -78,7 +78,7 @@ Cada día cubre 3 secciones:
 | 32 | Post Exploitation — Meterpreter | T1059.002 | [→](dias/dia-32-meterpreter.md) |
 | 33 | Persistence — Cron & Startup | T1053 | [→](dias/dia-33-persistence.md) |
 | 34 | Credential Dumping | T1003 | [→](dias/dia-34-credential-dumping.md) |
-| 35 | Pass the Hash | T1550.002 | — |
+| 35 | Pass the Hash | T1550.002 | [→](dias/dia-35-pass-the-hash.md) |
 | 36 | Lateral Movement — SSH | T1021.004 | — |
 | 37 | Lateral Movement — SMB | T1021.002 | — |
 | 38 | Pivoting | T1090 | — |
