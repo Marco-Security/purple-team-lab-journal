@@ -1,15 +1,6 @@
-# Purple Team Lab Journal — 52 días
+# Purple Team Lab Journal — 35 días
 
-Documentación de mi journey de 52 días hacia un rol de SOC Analyst / Security Analyst.
-
-## Objetivo
-
-Convertirme en SOC Analyst.
-
-## Certificaciones
-
-- SC-900 — Microsoft Security Fundamentals ✓
-- SC-200 — Microsoft Security Operations Analyst (examen: 18 Junio 2026)
+Documentación de mi journey de 35 días hacia un rol de SOC Analyst / Security Analyst.
 
 ## Estructura del journal
 
@@ -79,49 +70,8 @@ Cada día cubre 3 secciones:
 | 33 | Persistence — Cron & Startup | T1053 | [→](dias/dia-33-persistence.md) |
 | 34 | Credential Dumping | T1003 | [→](dias/dia-34-credential-dumping.md) |
 | 35 | Pass the Hash | T1550.002 | [→](dias/dia-35-pass-the-hash.md) |
-| 36 | Lateral Movement — SSH | T1021.004 | — |
-| 37 | Lateral Movement — SMB | T1021.002 | — |
-| 38 | Pivoting | T1090 | — |
-| 39 | C2 — Command & Control básico | T1071 | — |
-| 40 | Data Exfiltration | T1041 | — |
-| 41 | Semana 5-6 Review | — | — |
 
-### MES 3 — Microsoft Ecosystem
-
-#### Semana 7-8 — Azure AD & Entra ID
-
-| Día | Tema | MITRE | Link |
-|-----|------|-------|------|
-| 42 | Azure AD — Fundamentos | T1078.004 | — |
-| 43 | Azure AD — Enumeration | T1087.004 | — |
-| 44 | Entra ID — Conditional Access | — | — |
-| 45 | Microsoft Defender — Configuración | — | — |
-| 46 | Microsoft Defender — Alertas & Respuesta | — | — |
-
-#### Semana 9 — Active Directory
-
-| Día | Tema | MITRE | Link |
-|-----|------|-------|------|
-| 47 | Active Directory — Fundamentos | T1018 | — |
-| 48 | AD Enumeration — BloodHound | T1087.002 | — |
-| 49 | Kerberoasting | T1558.003 | — |
-| 50 | Pass the Ticket | T1550.003 | — |
-| 51 | AD Defense — Hardening | — | — |
-
-### FINAL — Full Chain Attack
-
-| Día | Tema | MITRE | Link |
-|-----|------|-------|------|
-| 52 | Full Chain Attack — Compromiso completo de Ubuntu | T1018 → T1059 → T1548 → T1041 | — |
-
-**Full Chain Attack** es un ejercicio integrador sin guía previa. Partiendo de cero — solo con la IP de la víctima — se ejecuta un ataque completo que encadena todas las fases aprendidas en el journal:
-
-```
-Reconnaissance → Scanning → Enumeration → Exploitation
-→ Privilege Escalation → Persistence → Data Exfiltration
-```
-
-El objetivo es comprometer completamente la máquina Ubuntu (192.168.1.96) documentando cada decisión táctica, los comandos ejecutados y las técnicas de detección desde el Blue Team.
+El objetivo es comprometer completamente la máquina Ubuntu (192.168.1.96) documentando cada decisión táctica, los comandos ejecutados y las técnicas de detección desde el Purple Team.
 
 ## Entorno técnico
 
@@ -129,5 +79,3 @@ El objetivo es comprometer completamente la máquina Ubuntu (192.168.1.96) docum
 - **Target:** Ubuntu con DVWA + OWASP Juice Shop (192.168.1.96)
 - **Microsoft E5:** Cuenta compartida — Microsoft Defender XDR + Sentinel
 - **Azure:** Cuenta estudiante ($100 crédito) — VMs, Log Analytics, Sentinel
-- **App MS:** Flask + React — [repo](https://github.com/Marco-Security/ms-security-app)
-- **Mobile Lab:** MobilePwn Lab — [repo](https://github.com/Marco-Security/mobilepwn-lab)
